@@ -52,3 +52,43 @@ coverage.xml
 # Sphinx documentation
 docs/_build/
 
+# ignore everything
+*
+
+# unignore a few things
+!.aliases
+!.bash*
+!.*rc
+!.emacs
+!.exports
+!.gitattributes
+!.gitconfig
+!.osx
+!.viminfo
+
+
+#	new file:   .aliases
+#	new file:   .bash_aliases
+#	new file:   .bash_history
+#	new file:   .bash_profile
+#	new file:   .bash_prompt
+#	new file:   .bashrc
+#	new file:   .curlrc
+#	new file:   .emacs
+#	new file:   .exports
+#	new file:   .gitattributes
+#	new file:   .gitconfig
+#	new file:   .gvimrc
+#	new file:   .inputrc
+#	new file:   .osx
+#	new file:   .screenrc
+#	new file:   .viminfo
+#	new file:   .vimrc
+#	new file:   .wgetrc
+#
+# Changes not staged for commit:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   .viminfo
+#
