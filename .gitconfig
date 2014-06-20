@@ -92,3 +92,5 @@
 [user]
 	email = kevin.bache@gmail.com
 	name = Kevin Bache
+[credential]
+	helper = osxkeychain

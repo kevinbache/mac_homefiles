@@ -8,7 +8,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~Msle0~/\<export\>
+~MSle0~/backup
 
 # Last Substitute Search Pattern:
 ~MSle0&.+new file.\w+
@@ -40,6 +40,7 @@ $
 
 # Search String History (newest to oldest):
 ?/backup
+?/kevin
 ?/molok
 ? \<export\>
 ?/brewnn
@@ -58,7 +59,6 @@ $
 ?/forward
 ?/ssh
 ? \<config\>
-?/cpu
 
 # Expression History (newest to oldest):
 
@@ -94,20 +94,24 @@ $
 	e
 
 # File marks:
-'0  100  0  ~/.vimrc
-'1  1  4  ~/.vimrc
-'2  2  0  ~/.vimrc
-'3  5  0  ~/.bash_profile
-'4  1  0  /private/etc/profile
-'5  702  0  ~/.osx
-'6  68  0  ~/.gitignore
-'7  1  0  ~/.gitattributes
-'8  94  18  ~/.gitconfig
-'9  1  0  ~/.rnd
+'0  1  0  ~/.vimrc
+'1  25  13  ~/.vimrc
+'2  1  0  ~/.gitconfig
+'3  96  9  ~/.gitconfig
+'4  100  0  ~/.vimrc
+'5  2  0  ~/.vimrc
+'6  5  0  ~/.bash_profile
+'7  1  0  /private/etc/profile
+'8  702  0  ~/.osx
+'9  68  0  ~/.gitignore
 
 # Jumplist (newest first):
--'  100  0  ~/.vimrc
 -'  1  0  ~/.vimrc
+-'  25  13  ~/.vimrc
+-'  1  0  ~/.gitconfig
+-'  96  9  ~/.gitconfig
+-'  17  0  ~/.gitconfig
+-'  100  0  ~/.vimrc
 -'  2  0  ~/.vimrc
 -'  5  0  ~/.bash_profile
 -'  4  0  ~/.bash_profile
@@ -124,7 +128,6 @@ $
 -'  1  0  ~/.gitignore
 -'  1  0  ~/.gitattributes
 -'  94  18  ~/.gitconfig
--'  1  0  ~/.gitconfig
 -'  1  0  ~/.rnd
 -'  1  0  ~/.inputrc
 -'  53  12  ~/.gitignore
@@ -200,20 +203,19 @@ $
 -'  1  0  ~/projects/wine_app/server/software/matlab_R2013a_linux_mac_x64/serial/Readme.txt
 -'  1  0  ~/projects/wine_app/server/software/matlab_R2013a_linux_mac_x64/README.txt
 -'  58  57  ~/projects/wine_app/server/Vagrantfile
--'  3  5  ~/projects/wine_app/server/install_opencv.sh
--'  12  67  ~/projects/wine_app/server/install_opencv.sh
--'  1  0  ~/.ssh/sentinel_rsa.pub
--'  1  0  ~/.ssh/sentinel_rsa
 
 # History of marks within files (newest to oldest):
 
 > ~/.vimrc
-	"	100	0
+	"	1	0
 	^	100	0
 	.	99	5
 	+	2	1
 	+	1	4
 	+	99	5
+
+> ~/.gitconfig
+	"	1	0
 
 > ~/.bash_profile
 	"	5	0
@@ -301,9 +303,6 @@ $
 
 > ~/.gitattributes
 	"	1	0
-
-> ~/.gitconfig
-	"	94	18
 
 > ~/.rnd
 	"	1	0
