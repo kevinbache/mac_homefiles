@@ -1,5 +1,5 @@
 " Use the Molokai theme (originally created for TextMate by Wimer Hazenberg)
-colorscheme molokai
+" colorscheme molokai
 
 " Make Vim more useful
 set nocompatible
@@ -97,3 +97,4 @@ if has("autocmd")
 	" Treat .json files as .js
 	autocmd BufNewFile,BufRead *.json setfiletype json syntax=javascript
 endif
+
